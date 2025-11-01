@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Data files (participants may add large datasets)
+*.csv
+*.json
+*.parquet
+data/
+!data/.gitkeep
+!data/DATA_README.md
+
+# Figures and outputs
+*.png
+*.jpg
+*.pdf
+figures/
+!figures/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Virtual environments
+*.venv
+venv/
+ENV/
+env/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*~
